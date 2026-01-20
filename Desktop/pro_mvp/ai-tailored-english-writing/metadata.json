@@ -1,0 +1,7 @@
+{
+  "name": "EssayFlow AI",
+  "description": "A high-performance, AI-native workspace for English teachers to batch process, OCR, and grade handwritten student essays using OpenAI/OpenRouter LLMs.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

@@ -1,0 +1,18 @@
+/* Global stylesheet placeholder to satisfy Vite import; keep empty to retain current look. */
+
+/* Keep strikethroughs centered in both UI and PDF snapshots (html2canvas misplaces text-decoration). */
+.error-strike {
+  position: relative;
+  display: inline-block;
+}
+
+.error-strike::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  border-top: 2px solid #fca5a5; /* tailwind rose-300 */
+  transform: translateY(-50%);
+  pointer-events: none;
+}
